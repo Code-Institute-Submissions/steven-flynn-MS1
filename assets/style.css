@@ -11,7 +11,7 @@
 
 .menuitem {
     background-color: green;
-    color: blueviolet;
+    color: rgba(255,0,255, 1);
     text-align: left;
 }
 
@@ -21,7 +21,7 @@
 }
 
 .nav-page2 {
-
+    background-color: rgb(255,0,255);
 }
 
 .nav-page3 {
@@ -34,5 +34,28 @@
 
 /*--------------------------------------------images*/
 .home-img-1 {
-    background: url(".images/fire.jpg")
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    align-content: right;
+}
+
+.home-img-2 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    align-content: right;
+}
+
+.home-img-3 {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    align-content: right;
 }

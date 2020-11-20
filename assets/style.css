@@ -9,6 +9,28 @@
 
 /*--------------------------------------------Nav Bar*/
 
+  .desktop-nav li{
+        float: left;
+    }
+
+#floating-menu { /* https://www.ucd.ie/juggling/the_lingo.html#gsc.tab=0 */
+    position: fixed;
+    background: #FFFFFF;
+    border: 2px solid;
+    border-radius: 25px;
+    z-index: 100;
+    left: 4%;
+    top: 20%;
+    margin-top: -2.5em;
+    width: 150px;
+    height: 300px;
+    padding: 0;
+    line-height: 26px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+}
+
 .menuitem {
     background-color: green;
     color: rgba(255,0,255, 1);
@@ -33,29 +55,41 @@
 }
 
 /*--------------------------------------------images*/
-.home-img-1 {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    display: block;
-    margin: auto;
-    align-content: right;
+
+.sidebar-images {
+    align: right;
+    size: cover;
 }
 
-.home-img-2 {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    display: block;
-    margin: auto;
-    align-content: right;
+#home-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
+
 }
 
-.home-img-3 {
-    width: 150px;
-    height: 150px;
-    padding: 10px;
-    display: block;
-    margin: auto;
-    align-content: right;
+#home-imgs img {
+    width: 100%;
+}
+
+@media screen and (max-width:635px)
+{
+    .sidebar-images {
+        display: none;
+        margin: 0 auto;
+    }
+    .desktop-nav {
+        display: none;
+        margin: 0 auto;
+    }
+
+}
+
+@media screen and (min-width:635px)
+{
+    .mobile-nav {
+        display: none;
+        margin: 0 auto;
+    }
+
 }

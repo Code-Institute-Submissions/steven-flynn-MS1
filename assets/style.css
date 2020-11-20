@@ -1,7 +1,7 @@
 /*--------------------------------------------header*/
 .page-title {
     text-align: center;
-    color: #FF0000;
+    color: yellow;
     background-color: #800080;
     font-weight: bolder;
 }
@@ -12,6 +12,10 @@
 .container-fluid {
     background-color: #800080;
     color: yellow;
+}
+
+body{
+    background-color: #e5e4e2;    
 }
 
 /*--------------------------------------------Nav Bar*/
@@ -60,6 +64,10 @@
     text-align: center;
 }
 
+.intro-text {
+    text-align: center;
+}
+
 /*--------------------------------------------images*/
 
 .sidebar-images {
@@ -75,6 +83,17 @@
 }
 
 #home-imgs img {
+    width: 100%;
+}
+
+#props-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
+
+}
+
+#props-imgs img {
     width: 100%;
 }
 
@@ -113,4 +132,14 @@
 
 .footer-right{
     text-align: center;
+}
+
+/*--------------------------------------------props page*/
+
+.prop-text {
+    text-align: center;
+}
+
+.stores {
+    list-style-type: none;
 }

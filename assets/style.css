@@ -26,7 +26,7 @@ body{
     background-color: #e5e4e2;    
 }
 
-/*--------------------------------------------Nav Bar*/
+/*--------------------------------------------Nav Bars*/
 
 #floating-menu { /* https://www.ucd.ie/juggling/the_lingo.html#gsc.tab=0 */
     position: fixed;
@@ -38,13 +38,16 @@ body{
     top: 40%;
     right 4%;
     margin-top: -2.5em;
-    width: 150px;
+    margin-left: 100px;
+    width: 100px;
     height: 300px;
     padding: none;
+    padding-left: 15px;
     line-height: 26px;
     text-align: center;
     display: block;
     overflow: hidden;
+    
 }
 
 #floating-menu li {
@@ -71,7 +74,7 @@ body{
 
 }
 
-/*--------------------------------------------page text*/
+/*--------------------------------------------page text divs*/
 
 .page-text {
     text-align: center;
@@ -95,6 +98,13 @@ body{
 }
 .prop-text h3{
     text-decoration: underline;
+}
+.prop-text {
+    text-align: center;
+}
+
+.stores {
+    list-style-type: none;
 }
 
 .event-text h3{
@@ -130,8 +140,18 @@ body{
     width: 100%;
 }
 
-/*--------------------------------------------media queries*/
+#events-imgs {
+    clear: both;
+    line-height: 5px;
+    column-count: 1;
 
+}
+
+#events-imgs img {
+    width: 100%;
+}
+
+/*--------------------------------------------media queries*/
 
 @media screen and (max-width:635px)
 {
@@ -169,14 +189,4 @@ body{
 
 .footer-right{
     text-align: center;
-}
-
-/*--------------------------------------------props page*/
-
-.prop-text {
-    text-align: center;
-}
-
-.stores {
-    list-style-type: none;
 }

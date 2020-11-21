@@ -100,14 +100,16 @@ The Dublin Circus Festival (previously named Dublin Juggling Festival) is a coll
 Our final stop on our circus journey around the island of Ireland is in the west coast in the beautiful city of Galway. Hosted by the National University of Ireland, Galway (NUIG) circus society, this convention is normally a sunny escape taking place during the summer, in May or June. The Galway Juggling Convention has all the same thrills and frills as the other conventions with added fun and chill out time. Who doesn’t love a sunny escape to Galway? For updates, follow the Galway Circus Festival facebook page: [facebook page] (https://www.facebook.com/GalwayJugglingConvention)
 
 Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features
-    • Feature 1 - allows users X to achieve Y, by having them fill out Z
-    • ...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+    • Users can find and get in contact with various groups that regularly meet up around Ireland
+    • Users can view a wide range of photos of both international and local performers and events to get a visual idea of what to expect when entering into the wonderful world of circus
+    • Users can fill out a form in the footer of each page to ask the author a question
+    • Users learn from looking at the first page a little bit of info about the author, about the circus community, the physical and mental benefits of circus and can find links to other circus groups around Ireland. In my opinion the most important piece of information is the benefits of doing circus which can be seen from a quick glance to the page
+    • Users can learn the basic props used by most performers and where to purchase their own and more, perhaps discovering a prop that will pique their interest 
+
 Features Left to Implement
-    • Another feature idea
+    • Include links to tricks for the other props
+    • clean up the colours on the page body
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
     • JQuery

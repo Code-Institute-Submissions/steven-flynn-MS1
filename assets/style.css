@@ -4,9 +4,17 @@
     color: yellow;
     background-color: #800080;
     font-weight: bolder;
+    
 }
 
+page-title p {
+    margin-bottom: 0px;
+    margin-block-end: 0px;
+}
 
+header{
+    margin-bottom: 0px;
+}
 /*--------------------------------------------Colours*/
 
 .container-fluid {
@@ -30,7 +38,7 @@ body{
     top: 20%;
     right 4%;
     margin-top: -2.5em;
-    width: 70px;
+    width: 150px;
     height: 300px;
     padding: none;
     line-height: 26px;
@@ -48,6 +56,9 @@ body{
     text-align: left;
 }
 
+.nav {
+
+}
 .nav-page1 {
 
 }
@@ -60,6 +71,8 @@ body{
 
 }
 
+/*--------------------------------------------page text*/
+
 .page-text {
     text-align: center;
 }
@@ -68,10 +81,30 @@ body{
     text-align: center;
 }
 
+.prop-intro li {
+    text-align: left;
+}
+
+.social-media{
+    list-style-type: circle;
+    text-align: left;
+}
+
+.intro-text h3{
+    text-decoration: underline;
+}
+.prop-text h3{
+    text-decoration: underline;
+}
+
+.event-text h3{
+    text-decoration: underline;
+}
+
 /*--------------------------------------------images*/
 
 .sidebar-images {
-    align: right;
+    align: left;
     size: cover;
 }
 
@@ -97,6 +130,9 @@ body{
     width: 100%;
 }
 
+/*--------------------------------------------media queries*/
+
+
 @media screen and (max-width:635px)
 {
     .sidebar-images {
@@ -107,6 +143,7 @@ body{
     #floating-menu {
         display: none;
         margin: 0 auto;
+        list-style-type: none;
     }
 
 }
